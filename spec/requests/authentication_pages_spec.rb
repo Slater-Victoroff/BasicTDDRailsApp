@@ -45,8 +45,7 @@ describe "Authentication" do
 		end
 	end
 	
-	describe "authorization" do
-	
+	describe "authorization" do		
 		describe "as non-admin user" do
 			let(:user) { FactoryGirl.create(:user) }
 			let(:non_admin) { FactoryGirl.create(:user) }
